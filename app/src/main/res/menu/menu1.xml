@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+    <item
+        android:id="@+id/file"
+        android:icon="@mipmap/ic_launcher"
+        android:orderInCategory="100"
+        android:showAsAction="never"
+        android:title="文件操作">
+        <menu>
+            <item
+                android:id="@+id/new_file"
+                android:showAsAction="never"
+                android:title="新建" />
+            <item
+                android:id="@+id/open_file"
+                android:showAsAction="never"
+                android:title="打开" />
+            <item
+                android:id="@+id/edit_file"
+                android:showAsAction="never"
+                android:title="编辑" />
+        </menu>
+    </item>
+    <item
+        android:id="@+id/set"
+        android:icon="@mipmap/ic_launcher"
+        android:orderInCategory="100"
+        android:showAsAction="never"
+        android:title="设置">
+        <menu>
+            <item
+                android:id="@+id/delete_set"
+                android:showAsAction="never"
+                android:title="删除" />
+            <item
+                android:id="@+id/exit_set"
+                android:showAsAction="never"
+                android:title="退出" />
+        </menu>
+    </item>
+</menu>
